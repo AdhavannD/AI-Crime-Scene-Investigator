@@ -69,7 +69,6 @@ class PromptService:
         inputs = {"input": description}
         result = app.invoke(inputs)
 
-        # Optional: format final output (you can customize this)
         formatted_output = f"""### AI Crime Scene Report
 
 **Facts Extracted:**  
